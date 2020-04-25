@@ -16,13 +16,22 @@ artworks_df['Title'] = artworks_df['Title'].apply(
 artworks_df['Date'] = artworks_df['Date'].str.replace(r'.*(\d{4})([-–]\d{2,4})*[^\d]*', 
     lambda s: s.group(1)[:2]+s.group(2)[-2:] if s.group(2) else s.group(1))
 
-# split multiple Artists into different lines
-# ...it's too long to do it the right way
+#TODO: remove arts with unknown year
 
+# split multiple Artists into different lines
+artworks_df['Artist ID'] = artworks_df['Artist ID'].str.split(', ')
+artworks_df = artworks_df.explode('Artist ID')
+
+# set right names to the artists via additional artists.csv
+artists_df = pd.read_csv("dataset/artists.csv")
+artists_df['Artist ID'] = artists_df['Artist ID'].astype(str)
+artists_df = artists_df[['Artist ID', 'Name']]
+artworks_df = pd.merge(artworks_df, artists_df, how='left', on='Artist ID')
+del artists_df
+
+#TODO: Change 'NULL' Artist_ID to some 'Unknown'
 
 # finding rexexpr
 # print(artworks_df['Date'].str.findall(r'\s*(\d{4})[-–](\d{2,4})\s*').head(940))
 
-print(artworks_fixed_df.head(2380))
-# print(pd.DataFrame(artworks_df.City.str.split('|').tolist(), index=artworks_df.EmployeeId).stack())
-# print(artworks_df['Date'].str.replace(r'\s*(\d{4})-(\d{2})\s*', lambda s: s.group(1)[:2]+s.group(2)).head(500))
+print(artworks_df)
