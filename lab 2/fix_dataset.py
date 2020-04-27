@@ -18,6 +18,9 @@ artworks_df['Date'] = artworks_df['Date'].str.replace(r'.*(\d{4})([-–]\d{2,4})
 
 #TODO: remove arts with unknown year
 
+# replace NaN artist ids with unknown (31589 is id of unknown)
+artworks_df['Artist ID'] = artworks_df['Artist ID'].fillna('31589')
+
 # split multiple Artists into different lines
 artworks_df['Artist ID'] = artworks_df['Artist ID'].str.split(', ')
 artworks_df = artworks_df.explode('Artist ID')
@@ -30,9 +33,16 @@ artists_df = artists_df[['Artist ID', 'Name']]
 artworks_df = pd.merge(artworks_df, artists_df, how='left', on='Artist ID')
 del artists_df
 
-#TODO: Change 'NULL' Artist_ID to some 'Unknown'
+'''
+The whole thing in this dataset is that if an artwork were made by 2 or more artists,
+there will be another "artist" with unique ID and EVEN BIRTHDATE! What is more,
+it has a name such as $Artistname1 [and|+|,|etc.] $Artistname2 I don't know is that
+a strict rule, but suppose not, so better will be to remove those "shadow clones"
+'''
+artworks_df = artworks_df[~artworks_df.Name.str.contains(r'\,|\+')]
+# if it prints error - try with na=False
 
-# finding rexexpr
+# template for finding rexexpr
 # print(artworks_df['Date'].str.findall(r'\s*(\d{4})[-–](\d{2,4})\s*').head(940))
 
 artworks_df.to_csv('dataset/artworks_fixed.csv', index=False)
