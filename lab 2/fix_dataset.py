@@ -23,6 +23,7 @@ artworks_df['Artist ID'] = artworks_df['Artist ID'].str.split(', ')
 artworks_df = artworks_df.explode('Artist ID')
 
 # set right names to the artists via additional artists.csv
+# easy way by additional file
 artists_df = pd.read_csv("dataset/artists.csv")
 artists_df['Artist ID'] = artists_df['Artist ID'].astype(str)
 artists_df = artists_df[['Artist ID', 'Name']]
@@ -34,4 +35,4 @@ del artists_df
 # finding rexexpr
 # print(artworks_df['Date'].str.findall(r'\s*(\d{4})[-–](\d{2,4})\s*').head(940))
 
-print(artworks_df)
+artworks_df.to_csv('dataset/artworks_fixed.csv', index=False)
