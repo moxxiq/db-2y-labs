@@ -48,6 +48,11 @@ a strict rule, but suppose not, so better will be to remove those "shadow clones
 artworks_df = artworks_df[~artworks_df.Name.str.contains(r'\,|\+')]
 # if it prints error - try with na=False
 
+# making life easier
+artworks_df = artworks_df[~artworks_df.Date.str.contains('Unknown', case=False,)]
+artworks_df = artworks_df[~artworks_df['Acquisition Date'].str.contains('Unknown', case=False,)]
+artworks_df = artworks_df[~artworks_df['Artist ID'].str.contains('Unknown', case=False,)]
+
 # template for finding rexexpr
 # print(artworks_df['Date'].str.findall(r'\s*(\d{4})[-–](\d{2,4})\s*').head(940))
 
