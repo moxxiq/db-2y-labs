@@ -40,3 +40,5 @@ ALTER TABLE relation_artwork_artist
 ALTER TABLE relation_artwork_artist
     ADD CONSTRAINT relation_1_artwork_fk FOREIGN KEY ( artwork_artwork_id )
         REFERENCES artwork ( artwork_id );
+
+commit;
