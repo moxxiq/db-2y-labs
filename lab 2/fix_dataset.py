@@ -27,6 +27,9 @@ artworks_df['Artist ID'] = artworks_df['Artist ID'].fillna('31589')
 # replace NaN Acquisition Date with 'Unknown'
 artworks_df['Acquisition Date'] = artworks_df['Acquisition Date'].fillna('Unknown')
 
+# remove Acquisition Date with wrong format
+artworks_df= artworks_df[artworks_df['Acquisition Date'].str.contains(r'\d{4}-\d{2}-\d{2}', regex=True)]
+
 # split multiple Artists into different lines
 artworks_df['Artist ID'] = artworks_df['Artist ID'].str.split(', ')
 artworks_df = artworks_df.explode('Artist ID')
