@@ -1,22 +1,22 @@
 CREATE TABLE artist (
     artist_id    INTEGER NOT NULL,
-    artist_name  VARCHAR2(253)
+    artist_name  VARCHAR2(400)
 );
 
 ALTER TABLE artist ADD CONSTRAINT artist_pk PRIMARY KEY ( artist_id );
 
 CREATE TABLE artwork (
     artwork_id             INTEGER NOT NULL,
-    artwork_title          VARCHAR2(253),
+    artwork_title          VARCHAR2(400),
     artwork_creation_year  INTEGER,
     acqusition_date        DATE,
-    proc_officer_name      VARCHAR2(253) NOT NULL
+    proc_officer_name      VARCHAR2(400) NOT NULL
 );
 
 ALTER TABLE artwork ADD CONSTRAINT artwork_pk PRIMARY KEY ( artwork_id );
 
 CREATE TABLE proc_officer (
-    proc_officer_name VARCHAR2(253) NOT NULL
+    proc_officer_name VARCHAR2(400) NOT NULL
 );
 
 ALTER TABLE proc_officer ADD CONSTRAINT proc_officer_pk PRIMARY KEY ( proc_officer_name );

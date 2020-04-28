@@ -28,8 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>253</dataTypeSize>
-<ownDataTypeParameters>253,,</ownDataTypeParameters>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="artwork_creation_year" id="C0882EB3-F70A-1957-9F45-36FAE92CD744">
@@ -61,10 +61,11 @@
 <createdTime>2020-04-28 12:40:38 UTC</createdTime>
 <generatorID>F8B9D5B2-B03B-D6E5-6D12-32EA845FAA44</generatorID>
 <ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>253</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="8459F2C4-CCAA-E321-35CE-61790EB6A9FA" referredColumn="89EE25DA-4E12-D070-907A-0D6A1248AC15"/>

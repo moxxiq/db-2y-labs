@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Relation_1" directorySegmentName="seg_0" id="299FFEB7-E0FA-8ACE-0C52-C5691E26AB2A">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="artist_artist_is" id="EA758954-B7F9-101C-65FF-AF7774292699">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_artwork_id" id="F4B2EA1C-A133-AF7D-DB3D-C1CB056E2D9E">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Relation_1_artist_FK" id="A1190ED1-10FE-ED35-BE41-CBAD62DBDA52">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Relation_1_artwork_FK" id="E85B62CE-7FA3-B4A6-CD92-2381FD439CC0">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Relation_1_PK" id="4489A8E6-9EB5-ED7C-6533-B8EC2B9896E7">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
