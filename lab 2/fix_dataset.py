@@ -12,14 +12,20 @@ artworks_df.drop(["Name","Medium", "Dimensions", "Catalogue", "Department", "Cla
 artworks_df['Title'] = artworks_df['Title'].apply(
     lambda t: str(t).split(',')[0])
 
-# fix year '1956-57' -> '1957'
-artworks_df['Date'] = artworks_df['Date'].str.replace(r'.*(\d{4})([-–]\d{2,4})*[^\d]*', 
-    lambda s: s.group(1)[:2]+s.group(2)[-2:] if s.group(2) else s.group(1))
+# fix year numbers '19(56)-57' -> '1957'
+artworks_df['Date'] = artworks_df.Date.str.replace(r'.*(\(?\d{2}\)?\d{2})(s?[-–/]\d{2,4})?.*', 
+    lambda s: str(s.group(1)[:2])+str(s.group(2)[-2:]) if s.group(2) else s.group(1), regex=True)
 
-#TODO: remove arts with unknown year
+
+# arts with unknown year get 'Unknown' year
+artworks_df['Date'] = artworks_df['Date'].fillna('Unknown')
+artworks_df.loc[~artworks_df['Date'].str.contains(r'\d{4}', regex=True), 'Date'] = 'Unknown'
 
 # replace NaN artist ids with unknown (31589 is id of unknown)
 artworks_df['Artist ID'] = artworks_df['Artist ID'].fillna('31589')
+
+# replace NaN Acquisition Date with 'Unknown'
+artworks_df['Acquisition Date'] = artworks_df['Acquisition Date'].fillna('Unknown')
 
 # split multiple Artists into different lines
 artworks_df['Artist ID'] = artworks_df['Artist ID'].str.split(', ')
@@ -45,4 +51,6 @@ artworks_df = artworks_df[~artworks_df.Name.str.contains(r'\,|\+')]
 # template for finding rexexpr
 # print(artworks_df['Date'].str.findall(r'\s*(\d{4})[-–](\d{2,4})\s*').head(940))
 
-artworks_df.to_csv('dataset/artworks_fixed.csv', index=False)
+# QUOTE_NONNUMERIC - compatibility issues need it
+from csv import QUOTE_NONNUMERIC
+artworks_df.to_csv('dataset/artworks_fixed.csv', index=False, quoting=QUOTE_NONNUMERIC)
