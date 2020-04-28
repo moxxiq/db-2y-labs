@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="290CB1E7-E95F-6081-5936-DDAEF2255725" name="proc officer">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:27:11 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="proc officer name" id="9A959CD0-349E-D502-4811-5B34237CCEB2">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:27:19 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBB8286A-B202-6941-C135-76E2F1A77D88" name="proc_officer_PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:31:58 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A959CD0-349E-D502-4811-5B34237CCEB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

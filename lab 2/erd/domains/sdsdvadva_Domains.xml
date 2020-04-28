@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="sdsdvadva_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="45BED883-8529-AE34-C08D-57A5F97CBDDE">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:26:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>sdsdvadva_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_254" id="681868E9-7B28-A150-70E7-D01B747A6392">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:26:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>254</dataTypeSize>
+<fileName>sdsdvadva_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="961494B5-6036-30B7-4C14-E8828FB17EAA">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:26:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>sdsdvadva_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_0" id="9A3DEDBB-1DDC-5788-4FCC-C9A6DAD6F79A">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:26:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>sdsdvadva_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

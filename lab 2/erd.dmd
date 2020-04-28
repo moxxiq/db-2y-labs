@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erd" id="3E61F694-2232-5A0E-BF58-A631E5CA85BD" version="3.5">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:21:50 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3E61F694-2232-5A0E-BF58-A631E5CA85BD</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9044B890-AEFA-57AA-606E-99D2A6112379">
+<designStoragePath>/sdsdvadva</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

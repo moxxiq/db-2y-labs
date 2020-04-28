@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="771A2DB9-EA35-251F-3BCF-E9B4F4FB1B5F" name="proc_officer">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<generatorID>290CB1E7-E95F-6081-5936-DDAEF2255725</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="proc_officer_name" id="89EE25DA-4E12-D070-907A-0D6A1248AC15">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<generatorID>9A959CD0-349E-D502-4811-5B34237CCEB2</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>253</dataTypeSize>
+<ownDataTypeParameters>253,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB1770ED-E7E7-760B-4DA4-2EFA46F748AA" name="proc_officer_PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<generatorID>BBB8286A-B202-6941-C135-76E2F1A77D88</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89EE25DA-4E12-D070-907A-0D6A1248AC15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

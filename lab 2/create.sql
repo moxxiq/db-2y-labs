@@ -1,60 +1,42 @@
 CREATE TABLE artist (
-    artist_id  INTEGER NOT NULL,
-    name       VARCHAR2(254) NOT NULL
-)
-LOGGING;
+    artist_id    INTEGER NOT NULL,
+    artist_name  VARCHAR2(253)
+);
 
 ALTER TABLE artist ADD CONSTRAINT artist_pk PRIMARY KEY ( artist_id );
 
-CREATE TABLE artist_artwork (
-    artwork_id  INTEGER NOT NULL,
-    artist_id   INTEGER NOT NULL
-)
-
-logging;
-
 CREATE TABLE artwork (
-    artwork_id        INTEGER NOT NULL,
-    credit            VARCHAR2(254) NOT NULL,
-    creation_date     VARCHAR2(16),
-    acquisition_date  DATE
-)
-
-logging;
+    artwork_id             INTEGER NOT NULL,
+    artwork_title          VARCHAR2(253),
+    artwork_creation_year  INTEGER,
+    acqusition_date        DATE,
+    proc_officer_name      VARCHAR2(253) NOT NULL
+);
 
 ALTER TABLE artwork ADD CONSTRAINT artwork_pk PRIMARY KEY ( artwork_id );
 
-CREATE TABLE purchase (
-    credit VARCHAR2(254) NOT NULL
-)
+CREATE TABLE proc_officer (
+    proc_officer_name VARCHAR2(253) NOT NULL
+);
 
-logging;
+ALTER TABLE proc_officer ADD CONSTRAINT proc_officer_pk PRIMARY KEY ( proc_officer_name );
 
-ALTER TABLE purchase ADD CONSTRAINT purchase_pk PRIMARY KEY ( credit );
+CREATE TABLE relation_artwork_artist (
+    artwork_artwork_id  INTEGER NOT NULL,
+    artist_artist_id    INTEGER NOT NULL
+);
 
-ALTER TABLE artist_artwork
-    ADD CONSTRAINT artist_artwork_artist_fk FOREIGN KEY ( artist_id )
-        REFERENCES artist ( artist_id )
-    NOT DEFERRABLE;
-
-ALTER TABLE artist_artwork
-    ADD CONSTRAINT artist_artwork_artwork_fk FOREIGN KEY ( artwork_id )
-        REFERENCES artwork ( artwork_id )
-    NOT DEFERRABLE;
+ALTER TABLE relation_artwork_artist ADD CONSTRAINT relation_1_pk PRIMARY KEY ( artwork_artwork_id,
+                                                                               artist_artist_id );
 
 ALTER TABLE artwork
-    ADD CONSTRAINT artwork_purchase_fk FOREIGN KEY ( credit )
-        REFERENCES purchase ( credit )
-    NOT DEFERRABLE;
+    ADD CONSTRAINT artwork_proc_officer_fk FOREIGN KEY ( proc_officer_name )
+        REFERENCES proc_officer ( proc_officer_name );
 
-CREATE SEQUENCE artist_artist_id_seq START WITH 1 NOCACHE ORDER;
+ALTER TABLE relation_artwork_artist
+    ADD CONSTRAINT relation_1_artist_fk FOREIGN KEY ( artist_artist_id )
+        REFERENCES artist ( artist_id );
 
-commit;
--- CREATE OR REPLACE TRIGGER artist_artist_id_trg BEFORE
---     INSERT ON artist
---     FOR EACH ROW
---     WHEN ( new.artist_id IS NULL )
--- BEGIN
---     :new.artist_id := artist_artist_id_seq.nextval;
--- END;
--- /
+ALTER TABLE relation_artwork_artist
+    ADD CONSTRAINT relation_1_artwork_fk FOREIGN KEY ( artwork_artwork_id )
+        REFERENCES artwork ( artwork_id );
