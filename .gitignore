@@ -1,4 +1,5 @@
-cred.py
+lab\ 2/cred.py
+lab\ 2/__pycache__/
 db_data/
 venv/
 **/*.localz
