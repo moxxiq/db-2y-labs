@@ -24,6 +24,9 @@ artworks_df.loc[~artworks_df['Date'].str.contains(r'\d{4}', regex=True), 'Date']
 # replace NaN artist ids with unknown (31589 is id of unknown)
 artworks_df['Artist ID'] = artworks_df['Artist ID'].fillna('31589')
 
+# replace empty credit to unknown
+artworks_df['Credit'] = artworks_df['Credit'].fillna('Unknown')
+
 # replace NaN Acquisition Date with 'Unknown'
 artworks_df['Acquisition Date'] = artworks_df['Acquisition Date'].fillna('Unknown')
 
