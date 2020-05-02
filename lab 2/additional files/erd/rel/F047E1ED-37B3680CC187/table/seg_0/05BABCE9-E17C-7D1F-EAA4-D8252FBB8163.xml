@@ -1,30 +1,31 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="299FFEB7-E0FA-8ACE-0C52-C5691E26AB2A" name="RELATION_ARTWORK_ARTIST">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05BABCE9-E17C-7D1F-EAA4-D8252FBB8163" name="relation_AO">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<ordsAlias>relation_1</ordsAlias>
+<ordsAlias>relation_artwork_officer</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="artwork_artwork_id" id="F4B2EA1C-A133-AF7D-DB3D-C1CB056E2D9E">
+<Column name="proc_officer_name" id="A63BC82B-E544-368D-D4A8-A7E47DFBAC2D">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C4EB7A80-A2C3-F303-5B72-0E5175B9D66B" referredColumn="DB09357C-45EA-A9CF-0A0F-0DF8C8F096E3"/>
+<colAssociation fkAssociation="B2C0B500-F255-D5D2-8928-AF74C14AE650" referredColumn="89EE25DA-4E12-D070-907A-0D6A1248AC15"/>
 </associations>
 </Column>
-<Column name="artist_artist_id" id="EA758954-B7F9-101C-65FF-AF7774292699">
+<Column name="artwork_artwork_id" id="2BCCDF8D-BFCF-5978-43F2-45CAF117F69D">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,43 +34,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6D3CC685-BB0B-F4F2-2263-6C09A504AA79" referredColumn="93B852E0-DAAB-BF54-B10D-0435CFC5F3E8"/>
+<colAssociation fkAssociation="2C8F4EDC-1CFA-5198-F483-7B1CA4D3909F" referredColumn="DB09357C-45EA-A9CF-0A0F-0DF8C8F096E3"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4489A8E6-9EB5-ED7C-6533-B8EC2B9896E7" name="Relation_1_PK">
+<ind_PK_UK id="094676A5-C385-1B5E-C525-67010769F818" name="Relation_artwork_officer_PK">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F4B2EA1C-A133-AF7D-DB3D-C1CB056E2D9E"/>
-<colUsage columnID="EA758954-B7F9-101C-65FF-AF7774292699"/>
+<colUsage columnID="A63BC82B-E544-368D-D4A8-A7E47DFBAC2D"/>
+<colUsage columnID="2BCCDF8D-BFCF-5978-43F2-45CAF117F69D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E85B62CE-7FA3-B4A6-CD92-2381FD439CC0" name="Relation_1_artwork_FK">
+<ind_PK_UK id="4411B128-E96F-2FF8-FC8D-F3F4AAE727B0" name="Relation_PO_FK">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
-<generatorID>1314F0CC-6255-5A37-2CCE-19BA937B3867</generatorID>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<generatorID>2B8ED387-F948-88A7-360D-5BEF72CC9E22</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F4B2EA1C-A133-AF7D-DB3D-C1CB056E2D9E"/>
+<colUsage columnID="A63BC82B-E544-368D-D4A8-A7E47DFBAC2D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A1190ED1-10FE-ED35-BE41-CBAD62DBDA52" name="Relation_1_artist_FK">
+<ind_PK_UK id="4AEB308F-5A0B-3ACD-2CB6-2436D7E6BBAC" name="Relation_AO_FK">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
-<generatorID>1314F0CC-6255-5A37-2CCE-19BA937B3867</generatorID>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<generatorID>2B8ED387-F948-88A7-360D-5BEF72CC9E22</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EA758954-B7F9-101C-65FF-AF7774292699"/>
+<colUsage columnID="2BCCDF8D-BFCF-5978-43F2-45CAF117F69D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C8F4EDC-1CFA-5198-F483-7B1CA4D3909F" containerWithKeyObject="05BABCE9-E17C-7D1F-EAA4-D8252FBB8163" localFKIndex="4AEB308F-5A0B-3ACD-2CB6-2436D7E6BBAC" name="Relation_AO_FK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<generatorID>2B8ED387-F948-88A7-360D-5BEF72CC9E22</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>artwork</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3078A5C1-D589-9BB4-7636-4F537FE97A9F</referredTableID>
+<keyObject>83982371-3819-202F-89FD-FF8D818122AA</keyObject>
+<referredKeyID>83982371-3819-202F-89FD-FF8D818122AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>artwork_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

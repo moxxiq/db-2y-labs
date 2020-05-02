@@ -24,7 +24,6 @@
 <createdTime>2020-04-28 12:40:38 UTC</createdTime>
 <generatorID>44388DE0-6997-DE68-9B34-9129520DA379</generatorID>
 <ownerDesignName>erd</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -67,9 +66,6 @@
 <dataTypeSize>400</dataTypeSize>
 <ownDataTypeParameters>400,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8459F2C4-CCAA-E321-35CE-61790EB6A9FA" referredColumn="89EE25DA-4E12-D070-907A-0D6A1248AC15"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -83,17 +79,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DB09357C-45EA-A9CF-0A0F-0DF8C8F096E3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F6D023CE-8CE3-EF0F-CFCD-EC808B82D2BF" name="artwork_proc_officer_FK">
-<createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
-<generatorID>76FC4467-62EF-FA4F-8E99-573110EC3A90</generatorID>
-<ownerDesignName>erd</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BE09F7A0-FAFB-4923-AF38-4B07F2EEA53D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

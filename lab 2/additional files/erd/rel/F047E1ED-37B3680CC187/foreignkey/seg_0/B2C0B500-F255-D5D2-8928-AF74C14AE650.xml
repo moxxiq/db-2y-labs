@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8459F2C4-CCAA-E321-35CE-61790EB6A9FA" containerWithKeyObject="3078A5C1-D589-9BB4-7636-4F537FE97A9F" localFKIndex="F6D023CE-8CE3-EF0F-CFCD-EC808B82D2BF" name="artwork_proc_officer_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2C0B500-F255-D5D2-8928-AF74C14AE650" containerWithKeyObject="05BABCE9-E17C-7D1F-EAA4-D8252FBB8163" localFKIndex="4411B128-E96F-2FF8-FC8D-F3F4AAE727B0" name="Relation_PO_FK">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:40:38 UTC</createdTime>
-<generatorID>76FC4467-62EF-FA4F-8E99-573110EC3A90</generatorID>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<generatorID>2B8ED387-F948-88A7-360D-5BEF72CC9E22</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <referredTableLongName>proc_officer</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

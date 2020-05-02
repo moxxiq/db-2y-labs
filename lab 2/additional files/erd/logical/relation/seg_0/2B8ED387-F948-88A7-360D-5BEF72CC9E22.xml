@@ -1,16 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="artwork proc officer FK" directorySegmentName="seg_0" id="76FC4467-62EF-FA4F-8E99-573110EC3A90">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_artwork_officer" directorySegmentName="seg_0" id="2B8ED387-F948-88A7-360D-5BEF72CC9E22">
 <createdBy>moxxiq</createdBy>
-<createdTime>2020-04-28 12:38:18 UTC</createdTime>
+<createdTime>2020-05-02 12:27:48 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
 <item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
 </engineerTo>
-<sourcePk>BBB8286A-B202-6941-C135-76E2F1A77D88</sourcePk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>290CB1E7-E95F-6081-5936-DDAEF2255725</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>02201C77-AEA9-E8C0-D564-41D68C15A36C</targetEntity>
