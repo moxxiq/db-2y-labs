@@ -59,6 +59,17 @@ with open('populate.sql', 'w') as sql_file:
         str(row['Artist ID'])+
         ");", 
         axis = 1).unique()).to_string(index=False))
+    sql_file.write("\n\n")
+
+    sql_file.write("-- RELATION_AO Table\n")
+    sql_file.write(pd.Series(artworks_df.apply(lambda row: 
+        "INSERT INTO RELATION_AO (PROC_OFFICER_NAME, ARTWORK_ARTWORK_ID) VALUES (" + 
+        "'" +
+        str(row['Credit']) +
+        ", " +
+        str(row['Artwork ID']) +
+        ");", 
+        axis = 1).unique()).to_string(index=False).replace(r'\n','').replace(r'\t',''))
 
 
 
