@@ -6,6 +6,9 @@ artworks_df = pd.read_csv("dataset/artworks_fixed.csv")
 with open('populate.sql', 'w') as sql_file:
     pd.set_option('display.max_colwidth', None)
 
+    ################# MINIMAL DATASET
+    artworks_df = artworks_df.head(30)
+
     # cover ' with ''
     artworks_df['Name'] = artworks_df['Name'].str.replace("\'", "\'\'", regex=True)
     artworks_df['Credit'] = artworks_df['Credit'].str.replace("\'", "\'\'", regex=True)
