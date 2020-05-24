@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02201C77-AEA9-E8C0-D564-41D68C15A36C" name="artwork">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:28:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="artwork id" id="D6933A33-AB5F-A3A1-B734-5426ECE22A6B">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:28:40 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="artwork title" id="44388DE0-6997-DE68-9B34-9129520DA379">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:29:15 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>700</dataTypeSize>
+<ownDataTypeParameters>700,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="artwork creation year" id="59E7AE4E-D764-429E-7F3D-50CF891C6746">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:29:31 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acqusition date" id="1D6A1073-A00C-51CE-618E-ED4D87FFE867">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:30:18 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="proc officer name" id="9ACDE5D2-4832-7A69-C416-70DF37007C0E">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:38:18 UTC</createdTime>
+<generatorID>76FC4467-62EF-FA4F-8E99-573110EC3A90</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<referedAttribute>9A959CD0-349E-D502-4811-5B34237CCEB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C883FE4-B677-4BD5-99C9-6F2EBA04DFDA" name="artwork PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:28:52 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6933A33-AB5F-A3A1-B734-5426ECE22A6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

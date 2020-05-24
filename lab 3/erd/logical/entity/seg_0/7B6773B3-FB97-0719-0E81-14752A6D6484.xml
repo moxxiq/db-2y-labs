@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B6773B3-FB97-0719-0E81-14752A6D6484" name="artist">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:27:31 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="artist id" id="4BA57622-6B3B-34CC-4F10-50B0CE4F3477">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:27:37 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="artist name" id="D54CDF73-4BB7-AD7D-3854-0840EF5E902A">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:27:57 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="302CDC60-4EFC-C3E4-4B64-C2E5B34E7073" name="artist PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:27:52 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4BA57622-6B3B-34CC-4F10-50B0CE4F3477</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

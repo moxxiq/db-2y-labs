@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="artist is" id="4BA57622-6B3B-34CC-4F10-50B0CE4F3477">
+<Attribute name="artist id" id="4BA57622-6B3B-34CC-4F10-50B0CE4F3477">
 <createdBy>moxxiq</createdBy>
 <createdTime>2020-04-28 12:27:37 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
@@ -38,8 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>253</dataTypeSize>
-<ownDataTypeParameters>253,,</ownDataTypeParameters>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

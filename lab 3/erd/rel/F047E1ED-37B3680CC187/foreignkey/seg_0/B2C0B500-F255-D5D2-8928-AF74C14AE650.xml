@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2C0B500-F255-D5D2-8928-AF74C14AE650" containerWithKeyObject="05BABCE9-E17C-7D1F-EAA4-D8252FBB8163" localFKIndex="4411B128-E96F-2FF8-FC8D-F3F4AAE727B0" name="Relation_PO_FK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<generatorID>2B8ED387-F948-88A7-360D-5BEF72CC9E22</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>proc_officer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>771A2DB9-EA35-251F-3BCF-E9B4F4FB1B5F</referredTableID>
+<keyObject>EB1770ED-E7E7-760B-4DA4-2EFA46F748AA</keyObject>
+<referredKeyID>EB1770ED-E7E7-760B-4DA4-2EFA46F748AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>proc_officer_name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

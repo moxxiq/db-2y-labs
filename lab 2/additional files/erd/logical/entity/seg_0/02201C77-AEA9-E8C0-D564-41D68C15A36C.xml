@@ -34,9 +34,11 @@
 <engineerTo>
 <item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>700</dataTypeSize>
+<ownDataTypeParameters>700,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="artwork creation year" id="59E7AE4E-D764-429E-7F3D-50CF891C6746">
 <createdBy>moxxiq</createdBy>
@@ -64,7 +66,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="proc officer name2" id="9ACDE5D2-4832-7A69-C416-70DF37007C0E">
+<Attribute name="proc officer name" id="9ACDE5D2-4832-7A69-C416-70DF37007C0E">
 <createdBy>moxxiq</createdBy>
 <createdTime>2020-04-28 12:38:18 UTC</createdTime>
 <generatorID>76FC4467-62EF-FA4F-8E99-573110EC3A90</generatorID>
@@ -73,8 +75,11 @@
 <item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
 </engineerTo>
 <referedAttribute>9A959CD0-349E-D502-4811-5B34237CCEB2</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

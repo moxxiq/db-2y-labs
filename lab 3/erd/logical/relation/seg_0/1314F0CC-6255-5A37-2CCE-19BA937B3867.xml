@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RELATION_ARTWORK_ARTIST" directorySegmentName="seg_0" id="1314F0CC-6255-5A37-2CCE-19BA937B3867">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-04-28 12:31:03 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="F047E1ED-1E5D-B045-ADA3-37B3680CC187" value="true"/>
+</engineerTo>
+<sourcePk>5C883FE4-B677-4BD5-99C9-6F2EBA04DFDA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>02201C77-AEA9-E8C0-D564-41D68C15A36C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B6773B3-FB97-0719-0E81-14752A6D6484</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

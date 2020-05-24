@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05BABCE9-E17C-7D1F-EAA4-D8252FBB8163" name="relation_AO">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>relation_artwork_officer</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="proc_officer_name" id="A63BC82B-E544-368D-D4A8-A7E47DFBAC2D">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>700</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2C0B500-F255-D5D2-8928-AF74C14AE650" referredColumn="89EE25DA-4E12-D070-907A-0D6A1248AC15"/>
+</associations>
+</Column>
+<Column name="artwork_artwork_id" id="2BCCDF8D-BFCF-5978-43F2-45CAF117F69D">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C8F4EDC-1CFA-5198-F483-7B1CA4D3909F" referredColumn="DB09357C-45EA-A9CF-0A0F-0DF8C8F096E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="094676A5-C385-1B5E-C525-67010769F818" name="Relation_artwork_officer_PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A63BC82B-E544-368D-D4A8-A7E47DFBAC2D"/>
+<colUsage columnID="2BCCDF8D-BFCF-5978-43F2-45CAF117F69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4411B128-E96F-2FF8-FC8D-F3F4AAE727B0" name="Relation_PO_FK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<generatorID>2B8ED387-F948-88A7-360D-5BEF72CC9E22</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A63BC82B-E544-368D-D4A8-A7E47DFBAC2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AEB308F-5A0B-3ACD-2CB6-2436D7E6BBAC" name="Relation_AO_FK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-02 12:30:30 UTC</createdTime>
+<generatorID>2B8ED387-F948-88A7-360D-5BEF72CC9E22</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BCCDF8D-BFCF-5978-43F2-45CAF117F69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
