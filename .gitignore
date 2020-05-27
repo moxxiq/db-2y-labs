@@ -1,5 +1,5 @@
 cred.py
-lab\ 2/__pycache__/
+__pycache__/
 db_data/
 venv/
 **/*.localz
