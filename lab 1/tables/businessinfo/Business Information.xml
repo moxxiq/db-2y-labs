@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="6F6C5029-80C7-0D27-134B-3E4B436A509B">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:32:16 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

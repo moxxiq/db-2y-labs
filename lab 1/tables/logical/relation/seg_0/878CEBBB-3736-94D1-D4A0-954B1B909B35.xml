@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="has_cathedra" directorySegmentName="seg_0" id="878CEBBB-3736-94D1-D4A0-954B1B909B35">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:47:58 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="797E5680-7341-140C-4CAB-D30AD449909E" value="true"/>
+</engineerTo>
+<sourcePk>FDD2FFEE-14E4-735C-9E1E-33EBC03D6DB1</sourcePk>
+<targetPk>1B9093E6-2BA0-4727-AF8E-3B605C950468</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA274804-1F67-F8FA-9FB7-244D0B0E62E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>36D08936-30E4-CFC0-C4C6-70A0FA4EDAB6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

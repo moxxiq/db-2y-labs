@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A30FA240-233C-CCBA-D158-AEC94B998E0C">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:32:16 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

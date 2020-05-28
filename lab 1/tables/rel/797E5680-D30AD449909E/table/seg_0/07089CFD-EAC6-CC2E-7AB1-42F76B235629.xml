@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07089CFD-EAC6-CC2E-7AB1-42F76B235629" name="University">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>F33D8DB8-33F4-F209-C436-1CEF92524071</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="F22017A2-E6E2-2A38-FE81-7FDB0C0EB5C5">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>C1E6D58B-CAD0-60D4-3E92-9B57A584164B</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>253</dataTypeSize>
+<ownDataTypeParameters>253,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rector" id="7CB195EE-153E-0414-0198-4EF3A4559BFD">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>7034DA5B-4E1F-2AE1-6FF0-C2603D8DB8ED</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>253</dataTypeSize>
+<ownDataTypeParameters>253,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A0EC0AD-77E1-F761-A0CC-2BEE204EAF4A" name="University_PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>CD7715AE-65DD-DB77-84E7-C2D93725894D</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F22017A2-E6E2-2A38-FE81-7FDB0C0EB5C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

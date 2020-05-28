@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="has_FAC" directorySegmentName="seg_0" id="9929D86E-4D5B-3B92-834B-520F3DD021AB">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:46:47 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="797E5680-7341-140C-4CAB-D30AD449909E" value="true"/>
+</engineerTo>
+<sourcePk>CD7715AE-65DD-DB77-84E7-C2D93725894D</sourcePk>
+<targetPk>FDD2FFEE-14E4-735C-9E1E-33EBC03D6DB1</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F33D8DB8-33F4-F209-C436-1CEF92524071</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA274804-1F67-F8FA-9FB7-244D0B0E62E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

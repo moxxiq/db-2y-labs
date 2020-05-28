@@ -1,0 +1,29 @@
+
+GRANT INSERT ANY TABLE TO USERNAME;
+
+select COUNT(DISTINCT(ORDERS.CUST_ID)) MOST_EXPENSIVE_SALES
+from ORDERITEMS,
+     ORDERS,
+     CUSTOMERS
+WHERE ORDERITEMS.ORDER_NUM = ORDERS.ORDER_NUM
+  AND ORDERS.CUST_ID = CUSTOMERS.CUST_ID
+  AND PROD_ID =
+      (select PROD_ID
+       from PRODUCTS
+       where PROD_PRICE =
+             (select max(PROD_PRICE)
+              from products)
+      );
+
+SELECT COUNT(DISTINCT(CUST_EMAIL)) count_email
+FROM CUSTOMERS;
+
+select trim(CUST_NAME) || ' ' || trim(CUST_EMAIL) client_name
+from
+(SELECT CUST_ID new_customer_id
+FROM CUSTOMERS
+minus
+select distinct (CUST_ID)
+from orders)
+, customers
+where new_customer_id = CUST_ID;

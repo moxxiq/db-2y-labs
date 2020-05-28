@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36D08936-30E4-CFC0-C4C6-70A0FA4EDAB6" name="Cathedra">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:44:44 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="797E5680-7341-140C-4CAB-D30AD449909E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="50FA149A-3B8B-7B44-57C8-2D4E5A3B8C55">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:45:27 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="797E5680-7341-140C-4CAB-D30AD449909E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>253</dataTypeSize>
+<ownDataTypeParameters>253,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="54F09064-4AA0-664E-59A7-993C276DB5DB">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:47:58 UTC</createdTime>
+<generatorID>878CEBBB-3736-94D1-D4A0-954B1B909B35</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="797E5680-7341-140C-4CAB-D30AD449909E" value="true"/>
+</engineerTo>
+<referedAttribute>D471CF6A-0A86-DE61-5FDF-E65393547B9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>253</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B9093E6-2BA0-4727-AF8E-3B605C950468" name="Cathedra PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:47:49 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="797E5680-7341-140C-4CAB-D30AD449909E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50FA149A-3B8B-7B44-57C8-2D4E5A3B8C55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

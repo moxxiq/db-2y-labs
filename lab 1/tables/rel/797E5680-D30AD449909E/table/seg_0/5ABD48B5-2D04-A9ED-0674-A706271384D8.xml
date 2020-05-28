@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5ABD48B5-2D04-A9ED-0674-A706271384D8" name="Cathedra">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>36D08936-30E4-CFC0-C4C6-70A0FA4EDAB6</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="2C855781-0E0C-CC97-0964-43F4B52F154B">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>50FA149A-3B8B-7B44-57C8-2D4E5A3B8C55</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>253</dataTypeSize>
+<ownDataTypeParameters>253,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Faculty_Name" id="DAD267F8-F133-6683-19CB-20FDE1D0B7BF">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>54F09064-4AA0-664E-59A7-993C276DB5DB</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>253</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7DB40B0-EF70-DDCD-2D96-A127E4BEC101" referredColumn="EADF3642-65C7-2B44-A5B6-5619DD3F1391"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD1B2B40-D0CC-7DF4-F5E1-46E0C5265AC1" name="Cathedra_PK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>1B9093E6-2BA0-4727-AF8E-3B605C950468</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C855781-0E0C-CC97-0964-43F4B52F154B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F76692A9-6A71-628F-D150-8BA873961E9C" name="Cathedra_Faculty_FK">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:51:28 UTC</createdTime>
+<generatorID>878CEBBB-3736-94D1-D4A0-954B1B909B35</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAD267F8-F133-6683-19CB-20FDE1D0B7BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tables" id="18B3C5F3-197F-B20E-63BC-D5E388A83F3E" version="3.5">
+<createdBy>moxxiq</createdBy>
+<createdTime>2020-05-28 09:32:16 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>18B3C5F3-197F-B20E-63BC-D5E388A83F3E</designId>
+</OSDM_Design>
