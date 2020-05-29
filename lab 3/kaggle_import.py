@@ -1,6 +1,15 @@
 import pandas as pd
 import numpy as np
 import os.path
+import cx_Oracle
+import chart_studio
+import plotly.graph_objects as go
+import plotly.io as pio
+import chart_studio.plotly as py
+import cred
+
+
+chart_studio.tools.set_credentials_file(username=cred.username, api_key=cred.api_key)
 
 # Check if File Exists
 FILENAME = "dataset/artworks.csv"
@@ -15,24 +24,22 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
 '''TODO:
-insert test data with unique handler function or smth like that 
-    (exceptionsmaybe in sql?)
-make authou
 make requirements.txt
 '''
+# print(artworks_df[["Artwork ID", "Title", "Artist ID", "Name", "Date", "Acquisition Date", "Credit"]].head(30).to_string(index=False))
 
-
-# print(artworks_df.head(30))
+# remove unnecessary columns 
 # artworks_df.drop(["Name","Medium", "Dimensions", "Catalogue", "Department", "Classification", "Object Number", "Diameter (cm)", "Circumference (cm)", "Height (cm)", "Length (cm)", "Width (cm)", "Depth (cm)", "Weight (kg)", "Duration (s)"],
 #                  axis=1,
 #                  inplace=True)
-# print(artworks_df[["Artwork ID", "Title", "Artist ID", "Name", "Date", "Acquisition Date", "Credit"]].head(30).to_string(index=False))
+artworks_df=artworks_df[["Artwork ID", "Title", "Artist ID", "Name", "Date", "Acquisition Date", "Credit"]]
 
-'''
-# remove unnecessary columns 
-artworks_df.drop(["Name","Medium", "Dimensions", "Catalogue", "Department", "Classification", "Object Number", "Diameter (cm)", "Circumference (cm)", "Height (cm)", "Length (cm)", "Width (cm)", "Depth (cm)", "Weight (kg)", "Duration (s)"],
+# split artist into the new table
+artists_df = artworks_df[['Artist ID', 'Name']]
+artworks_df.drop(["Name"],
                  axis=1,
                  inplace=True)
+
 
 # get only title of the artwork
 artworks_df['Title'] = artworks_df['Title'].apply(
@@ -63,30 +70,57 @@ artworks_df= artworks_df[artworks_df['Acquisition Date'].str.contains(r'\d{4}-\d
 artworks_df['Artist ID'] = artworks_df['Artist ID'].str.split(', ')
 artworks_df = artworks_df.explode('Artist ID')
 
-# set right names to the artists via additional artists.csv
-# easy way by additional file
-artists_df = pd.read_csv("dataset/artists.csv")
 artists_df['Artist ID'] = artists_df['Artist ID'].astype(str)
-artists_df = artists_df[['Artist ID', 'Name']]
+artists_df = artists_df[~artists_df['Artist ID'].str.contains(',')]
+
 artworks_df = pd.merge(artworks_df, artists_df, how='left', on='Artist ID')
 del artists_df
 
-The whole thing in this dataset is that if an artwork were made by 2 or more artists,
-there will be another "artist" with unique ID and EVEN BIRTHDATE! What is more,
-it has a name such as $Artistname1 [and|+|,|etc.] $Artistname2 I don't know is that
-a strict rule, but suppose not, so better will be to remove those "shadow clones"
-artworks_df = artworks_df[~artworks_df.Name.str.contains(r'\,|\+')]
+# The whole thing in this dataset is that if an artwork were made by 2 or more artists,
+# there will be another "artist" with unique ID and EVEN BIRTHDATE! What is more,
+# it has a name such as $Artistname1 [and|+|,|etc.] $Artistname2 I don't know is that
+# a strict rule, but suppose not, so better will be to remove those "shadow clones"
+# artworks_df = artworks_df[~artworks_df.Name.str.contains(r'\,|\+')]
+
 # if it prints error - try with na=False
 
 # making life easier
-artworks_df = artworks_df[~artworks_df.Date.str.contains('Unknown', case=False,)]
-artworks_df = artworks_df[~artworks_df['Acquisition Date'].str.contains('Unknown', case=False,)]
-artworks_df = artworks_df[~artworks_df['Artist ID'].str.contains('Unknown', case=False,)]
+# artworks_df = artworks_df[~artworks_df.Date.str.contains('Unknown', case=False,)]
+# artworks_df = artworks_df[~artworks_df['Acquisition Date'].str.contains('Unknown', case=False,)]
+# artworks_df = artworks_df[~artworks_df['Artist ID'].str.contains('Unknown', case=False,)]
 
 # template for finding rexexpr
 # print(artworks_df['Date'].str.findall(r'\s*(\d{4})[-–](\d{2,4})\s*').head(940))
 
-# QUOTE_NONNUMERIC - compatibility issues need it
-from csv import QUOTE_NONNUMERIC
-artworks_df.to_csv('dataset/artworks_fixed.csv', index=False, quoting=QUOTE_NONNUMERIC)
-'''
+
+def execute_query(query, args, conn):
+    cur = conn.cursor()
+    try:
+        cur.execute (query,args)
+    except cx_Oracle.Error as error:
+        print('Failed to insert row', error)
+    cur.close()
+
+
+conn = cx_Oracle.connect(cred.name, cred.passw, "localhost/XE")
+# cur = conn.cursor()
+into_artist_q = "INSERT INTO ARTIST (ARTIST_ID, ARTIST_NAME) VALUES (:artist_id, :artist_name)"
+into_proc_officer_q = "INSERT INTO PROC_OFFICER (PROC_OFFICER_NAME) VALUES (:proc_officer_name)"
+into_artwork_q = "INSERT INTO ARTWORK (ARTWORK_ID, ARTWORK_TITLE, ARTWORK_CREATION_YEAR, ACQUSITION_DATE, PROC_OFFICER_NAME) VALUES (:artwork_id, :artwork_title , :a_c_year, TO_DATE(:acquisition_date, 'YYYY-MM-DD'), :proc_officer_name)"
+into_rel_artw_arti_q = "INSERT INTO RELATION_ARTWORK_ARTIST (ARTWORK_ARTWORK_ID, ARTIST_ARTIST_ID) VALUES (:artwork_id, :artist_id)"
+into_rel_ao_q = "INSERT INTO RELATION_AO (PROC_OFFICER_NAME, ARTWORK_ARTWORK_ID) VALUES (:proc_officer_name, :artwork_id)"
+
+
+# Test data
+# execute_query(into_artist_q, [78787878, "cheburekor"], conn)
+# execute_query(into_proc_officer_q, ["Gift of Luck"], conn)
+# execute_query(into_artwork_q, [87878787, "Tvorenie",2020,"2020-05-29","Gift of Luck"], conn)
+# execute_query(into_rel_artw_arti_q, [87878787, 78787878], conn)
+# execute_query(into_rel_ao_q, ["Gift of Luck",87878787], conn)
+
+
+
+# print(artworks_df.head(30).to_string(index=False))
+# cur.close()
+conn.commit()
+conn.close()
