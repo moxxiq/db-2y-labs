@@ -118,7 +118,19 @@ into_rel_ao_q = "INSERT INTO RELATION_AO (PROC_OFFICER_NAME, ARTWORK_ARTWORK_ID)
 # execute_query(into_rel_artw_arti_q, [87878787, 78787878], conn)
 # execute_query(into_rel_ao_q, ["Gift of Luck",87878787], conn)
 
-
+for row in artworks_df.itertuples():
+    if 'unknown' in row.Date.lower():
+        continue
+    if 'unknown' in row._5.lower():
+        continue
+    if 'unknown' in row._3.lower():
+        continue
+    execute_query(into_artist_q, [row._3, row.Name], conn)
+    execute_query(into_proc_officer_q, [row.Credit], conn)
+    execute_query(into_artwork_q, [row._1, row.Title, row.Date,row._5,row.Credit], conn)
+    execute_query(into_rel_artw_arti_q, [row._1, row._3], conn)
+    execute_query(into_rel_ao_q, [row.Credit,row._1], conn)
+    # print(row.Index, row.date, row.delay)
 
 # print(artworks_df.head(30).to_string(index=False))
 # cur.close()
