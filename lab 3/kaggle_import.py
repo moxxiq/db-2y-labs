@@ -23,6 +23,7 @@ pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
+artworks_df = artworks_df.head(500)
 '''TODO:
 make requirements.txt
 '''
@@ -93,17 +94,16 @@ del artists_df
 # print(artworks_df['Date'].str.findall(r'\s*(\d{4})[-–](\d{2,4})\s*').head(940))
 
 
-def execute_query(query, args, conn):
-    cur = conn.cursor()
+def execute_query(query, args, cur):
     try:
         cur.execute (query,args)
     except cx_Oracle.Error as error:
-        print('Failed to insert row', error)
-    cur.close()
+        # print('Failed to insert row', error)
+        pass
 
 
 conn = cx_Oracle.connect(cred.name, cred.passw, "localhost/XE")
-# cur = conn.cursor()
+cur = conn.cursor()
 into_artist_q = "INSERT INTO ARTIST (ARTIST_ID, ARTIST_NAME) VALUES (:artist_id, :artist_name)"
 into_proc_officer_q = "INSERT INTO PROC_OFFICER (PROC_OFFICER_NAME) VALUES (:proc_officer_name)"
 into_artwork_q = "INSERT INTO ARTWORK (ARTWORK_ID, ARTWORK_TITLE, ARTWORK_CREATION_YEAR, ACQUSITION_DATE, PROC_OFFICER_NAME) VALUES (:artwork_id, :artwork_title , :a_c_year, TO_DATE(:acquisition_date, 'YYYY-MM-DD'), :proc_officer_name)"
@@ -118,18 +118,21 @@ into_rel_ao_q = "INSERT INTO RELATION_AO (PROC_OFFICER_NAME, ARTWORK_ARTWORK_ID)
 # execute_query(into_rel_artw_arti_q, [87878787, 78787878], conn)
 # execute_query(into_rel_ao_q, ["Gift of Luck",87878787], conn)
 
+print("Starting inserting into the rows")
+
 for row in artworks_df.itertuples():
-    if 'unknown' in row.Date.lower():
-        continue
-    if 'unknown' in row._5.lower():
-        continue
-    if 'unknown' in row._3.lower():
-        continue
-    execute_query(into_artist_q, [row._3, row.Name], conn)
-    execute_query(into_proc_officer_q, [row.Credit], conn)
-    execute_query(into_artwork_q, [row._1, row.Title, row.Date,row._5,row.Credit], conn)
-    execute_query(into_rel_artw_arti_q, [row._1, row._3], conn)
-    execute_query(into_rel_ao_q, [row.Credit,row._1], conn)
+    # if 'unknown' in row.Date.lower():
+    #     continue
+    # if 'unknown' in row._5.lower():
+    #     continue
+    # if 'unknown' in row._3.lower():
+    #     continue
+    execute_query(into_artist_q, [row._3, row.Name], cur)
+    execute_query(into_proc_officer_q, [row.Credit], cur)
+    execute_query(into_artwork_q, [row._1, row.Title, row.Date,row._5,row.Credit], cur)
+    execute_query(into_rel_artw_arti_q, [row._1, row._3], cur)
+    execute_query(into_rel_ao_q, [row.Credit,row._1], cur)
+    
     # print(row.Index, row.date, row.delay)
 
 # print(artworks_df.head(30).to_string(index=False))
