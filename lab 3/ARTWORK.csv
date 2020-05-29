@@ -1,0 +1,477 @@
+ARTWORK_ID,ARTWORK_TITLE,ARTWORK_CREATION_YEAR,ACQUSITION_DATE,PROC_OFFICER_NAME
+203,Study for an Office Building,1980,1992-01-15 00:00:00,Gift of Kenneth Walker
+204,Egg of Columbus Circle,1975,1992-01-15 00:00:00,Gift of Kenneth Walker
+205,Arch Oboler Guest House (Eleanor's Retreat),1941,1992-01-15 00:00:00,Arthur Drexler Fund
+206,Arch Oboler Guest House (Eleanor's Retreat),1941,1992-01-15 00:00:00,Arthur Drexler Fund
+207,Arch Oboler Guest House (Eleanor's Retreat),1941,1992-01-15 00:00:00,Arthur Drexler Fund
+208,Arch Oboler Guest House (Eleanor's Retreat),1941,1992-01-15 00:00:00,Arthur Drexler Fund
+209,"Exhibition ""Mario Bellini: Designer.""",1987,1988-04-27 00:00:00,Gift of the designer
+210,City Hall,1965,1988-04-27 00:00:00,"Gift of Venturi, Rauch and Scott Brown, Inc."
+211,House,1978,1988-04-27 00:00:00,"Gift of Venturi, Rauch and Scott Brown, Inc."
+212,Gordon Wu Hall,1981,1988-04-27 00:00:00,"Gift of Venturi, Rauch and Scott Brown, Inc."
+213,Gordon Wu Hall,1981,1988-04-27 00:00:00,"Gift of Venturi, Rauch and Scott Brown, Inc."
+215,Lewis Thomas Laboratory for Molecular Biology,1983,1988-04-27 00:00:00,"Gift of Venturi, Rauch and Scott Brown, Inc."
+219,Center for Applied Computer Research,1975,1992-01-15 00:00:00,Gift of the architect
+220,Hospital: House of Hope,1979,1995-05-09 00:00:00,Gift of Dorothy and Leroy Lavine
+221,Church on the Water,1988,1993-05-04 00:00:00,Gift of the architect
+222,Church on the Water,1988,1993-05-04 00:00:00,Gift of the architect
+223,Church on the Water,1988,1993-05-04 00:00:00,Gift of the architect
+224,Chikatsu-Asuka Historical Museum,1991,1993-05-04 00:00:00,Gift of the architect
+225,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+226,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+227,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+228,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+229,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+230,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+231,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+232,Contra-Construction Project (Axonometric),1923,1947-06-17 00:00:00,"Gift of Edgar Kaufmann, Jr."
+233,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+235,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+237,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+238,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+239,Nara Convention Hall,1992,1993-05-04 00:00:00,Gift of the architect
+240,Parc de la Villette,1983,1993-05-04 00:00:00,Gift of Barbara Pine
+241,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+242,American System-Built Houses for The Richards Company.,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+243,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+244,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+245,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+246,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+247,American System-Built Houses for The Richards Company. ,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+248,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+249,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+250,American System-Built Houses for The Richards Company,1917,1993-05-04 00:00:00,"Gift of David Rockefeller, Jr. Fund, Ira Howard Levy Fund, and Jeffrey P. Klein Purchase Fund"
+252,Ibirapuera Park project,1953,1991-06-04 00:00:00,"Gift of Roblee McCarthy, Jr. Fund and Lily Auchincloss Fund"
+253,Ibirapuera Park Project,1953,1991-06-04 00:00:00,"Gift of Roblee McCarthy, Jr. Fund and Lily Auchincloss Fund"
+255,Prototype Architecture School No. 5,1992,1998-04-22 00:00:00,Ralph Fehlbaum Purchase Fund
+256,Bismarck Monument,1910,1998-04-22 00:00:00,"Rob Beyer Purchase Fund, Edward Larrabee Barnes Purchase Fund, Marcel Breuer Purchase Fund, and Philip Johnson Purchase Fund"
+257,Simulated Dwelling for a Family of Five Project,1970,1973-05-08 00:00:00,Estée and Joseph Lauder Design Fund
+258,Gotthard Bank,1986,1987-05-27 00:00:00,Gift of Banca del Gottardo
+259,Gotthard Bank,1985,1987-05-27 00:00:00,Gift of Banca del Gottardo
+260,Gotthard Bank,1985,1987-05-27 00:00:00,Gift of Banca del Gottardo
+262,Gotthard Bank,1986,1987-05-27 00:00:00,Gift of Banca del Gottardo
+263,Gotthard Bank,1986,1987-05-27 00:00:00,Gift of Banca del Gottardo
+264,Dymaxion Dwelling Machine,1945,1978-02-27 00:00:00,"Gift of The Gilman Foundation, Inc."
+266,Dymaxion Dwelling Machine,1945,1978-02-27 00:00:00,"Gift of The Gilman Foundation, Inc."
+269,Cultural Center,1986,1987-05-27 00:00:00,Gift of the architect
+270,Urban Housing,1985,1987-05-27 00:00:00,Gift of the architect
+271,Row Housing,1985,1987-05-27 00:00:00,Gift of the architect
+272,Row Housing,1985,1987-05-27 00:00:00,Gift of the architect
+273,House,1986,1987-05-27 00:00:00,Gift of the architect
+274,House,1984,1987-05-27 00:00:00,Gift of the architect
+275,Gallery,1985,1987-05-27 00:00:00,Gift of the architect
+276,Thyssen-Bornemisza Gallery,1986,1987-05-27 00:00:00,Gift of the architect
+277,Urban Housing,1985,1987-05-27 00:00:00,Gift of the architect
+278,Urban Housing,1985,1987-05-27 00:00:00,Gift of Mario Botta
+279,Urban Housing,1985,1987-05-27 00:00:00,Gift of Mario Botta
+280,Library,1984,1987-05-27 00:00:00,Gift of the architect
+281,Library,1984,1987-05-27 00:00:00,Gift of the architect
+282,La Miniatura,1924,1981-04-30 00:00:00,Gift of Mr. and Mrs. Walter Hochschild
+283,Project for a Piece of Furniture,1974,1975-03-31 00:00:00,Zaidee Dufallo Fund and Greta Daniel Fund
+284,La Miniatura,1923,1981-04-30 00:00:00,Gift of Mr. and Mrs. Walter Hochschild
+285,La Miniatura,1923,1981-04-30 00:00:00,Gift of Mr. and Mrs. Walter Hochschild
+286,Ibirapuera Park,1953,1954-06-16 00:00:00,Inter-American Fund
+287,"""Bauhaus 1919-1928",1938,1986-10-07 00:00:00,Purchase
+288,White Monuments with Red Flag Curtains,1974,1986-10-07 00:00:00,Architecture and Design Interest Fund
+289,Silk Administration Building project,1938,1986-10-07 00:00:00,Purchase
+290,Silk Administration Building project,1938,1986-10-07 00:00:00,Purchase
+291,Silk Administration Building,1938,1986-10-07 00:00:00,Purchase
+292,Silk Administration Building project,1938,1986-10-07 00:00:00,Purchase
+293,Silk Administration Building project,1938,1986-10-07 00:00:00,Purchase
+294,Resor House Project,1938,1979-05-30 00:00:00,"Mies van der Rohe Archive, gift of the architect"
+295,Micromegas Project,1979,1999-06-30 00:00:00,"Robert K. and Barbara J. Straus Family Foundation, Inc."
+296,Sixth Street House project,1987,1999-06-30 00:00:00,Given anonymously
+297,Sixth Street House project,1990,1999-06-30 00:00:00,Given anonymously
+298,Sixth Street House project,1987,1999-06-30 00:00:00,Given anonymously
+299,Sixth Street House project,1990,1999-06-30 00:00:00,Given anonymously
+300,Boompjes Tower Slab,1981,1999-06-30 00:00:00,Andrew Cogan Purchase Fund
+301,Urban Architecture,1976,1999-06-30 00:00:00,Barbara Jakobson Purchase Fund
+66,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+67,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+68,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+76,Concert Hall Project,1918,1966-01-11 00:00:00,Gift of Henry G. Proskauer
+79,Earth-Cloud House,1970,1980-01-08 00:00:00,Gift of Philip Johnson
+81,House IV Transformation Study,1975,1980-01-08 00:00:00,Gift of Philip Johnson
+82,Villa dall'Ava,1987,2000-01-19 00:00:00,Gift of Max Underwood
+84,Pedestrian City,1979,1980-01-08 00:00:00,National Endowment for the Arts Project Funds
+85,Parc de la Villette,1984,2000-01-19 00:00:00,Gift of the Peter Norton Family Foundation
+87,Pedestrian City,1979,1980-01-08 00:00:00,National Endowment for the Arts Project Funds
+88,Parc de la Villette,1986,2000-01-19 00:00:00,Takeo Ohbayashi Purchase Fund
+90,Pedestrian City,1979,1980-01-08 00:00:00,National Endowment for the Arts Project Funds
+92,Fargo-Moorhead Cultural Center Bridge,1978,1980-01-08 00:00:00,Lily Auchincloss Fund
+94,Vacation House Project,1978,1980-01-08 00:00:00,Gift of Philip Johnson
+96,French & Company,1978,1980-01-08 00:00:00,Gift of Philip Johnson
+98,Vacation House,1978,1980-01-08 00:00:00,Gift of Philip Johnson
+100,Regional Administrative Center,1974,1980-01-08 00:00:00,Philip Johnson Fund
+107,Villa Snellman,1917,1990-01-17 00:00:00,"Gift of Mr. and Mrs. Edward Larrabee Barnes, Roblee McCarthy, Jr., Jeffrey P. Klein Purchase Fund, and purchase"
+109,Villa Snellman,1917,1990-01-17 00:00:00,"Gift of Mr. and Mrs. Edward Larrabee Barnes, Roblee McCarthy, Jr., Jeffrey P. Klein Purchase Fund, and purchase"
+111,Villa Snellman,1917,1990-01-17 00:00:00,"Gift of Mr. and Mrs. Edward Larrabee Barnes, Roblee McCarthy, Jr., Jeffrey P. Klein Purchase Fund, and purchase"
+113,Villa Snellman,1917,1990-01-17 00:00:00,"Gift of Mr. and Mrs. Edward Larrabee Barnes, Roblee McCarthy, Jr., Jeffrey P. Klein Purchase Fund, and purchase"
+115,Villa Snellman,1917,1990-01-17 00:00:00,"Gift of Mr. and Mrs. Edward Larrabee Barnes, Roblee McCarthy, Jr., Jeffrey P. Klein Purchase Fund, and purchase"
+117,Villa Snellman,1917,1990-01-17 00:00:00,"Gift of Mr. and Mrs. Edward Larrabee Barnes, Roblee McCarthy, Jr., Jeffrey P. Klein Purchase Fund, and purchase"
+119,Skandia Cinema,1923,1990-01-17 00:00:00,"Gift of Ira Levy, Mrs. Donald B. Marron, and purchase"
+121,Skandia Cinema,1923,1990-01-17 00:00:00,"Gift of Ira Levy, Mrs. Donald B. Marron, and purchase"
+123,Skandia Cinema,1923,1990-01-17 00:00:00,"Gift of Ira Levy, Mrs. Donald B. Marron, and purchase"
+125,Skandia Cinema,1923,1990-01-17 00:00:00,"Gift of Ira Levy, Mrs. Donald B. Marron, and purchase"
+134,Stockholm Exhibition,1930,1990-01-17 00:00:00,Gift of Frederieke Taylor and purchase
+135,Law Courts Annex,1936,1990-01-17 00:00:00,"Gift of Richard S. Zeisler, Richard Kahan, and purchase"
+137,Woodland Crematorium,1935,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+138,Woodland Crematorium,1935,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+139,Woodland Crematorium,1935,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+141,Woodland Crematorium,1935,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+142,Woodland Crematorium,1935,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+143,Woodland Crematorium,1935,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+148,Woodland Crematorium,1937,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+149,Woodland Crematorium,1937,1990-01-17 00:00:00,"Gift of Mrs. John D. Rockefeller, 3rd, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+150,Woodland Crematorium,1937,1990-01-17 00:00:00,"Gift of Blanchette Hooker Rockefeller, Mrs. Gifford Phillips, Celeste and Armand P. Bartos, Mrs. S. I. Newhouse, Jr., and purchase"
+151,Palais de la Découverte Project,1938,1966-01-01 00:00:00,Gift of the architects
+152,Palais de la Découverte Project,1938,1966-01-01 00:00:00,Gift of the architects
+153,Palais de la Découverte Project,1938,1966-01-01 00:00:00,Gift of the architects
+154,Palais de la Découverte Project,1938,1966-01-01 00:00:00,Gift of the architects
+163,Gymnasium-Bridge,1977,1989-05-16 00:00:00,Roblee McCarthy Fund
+164,Gymnasium-Bridge Project,1977,1989-05-16 00:00:00,Roblee McCarthy Fund
+165,Library and Office Building of Salman Schocken,1935,2000-01-19 00:00:00,Gift of Milton Sheingarten
+166,Gymnasium Bridge,1977,1989-05-16 00:00:00,Roblee McCarthy Fund
+168,Helium Bridge Project,1958,1966-01-01 00:00:00,Gift of the architect
+169,Autonomous Artisans' House,1980,1989-05-16 00:00:00,Edward Larrabee Barnes Purchase Fund
+171,Autonomous Artisans' House,1984,1989-05-16 00:00:00,Edward Larrabee Barnes Purchase Fund
+173,Berkowitz House,1985,1989-05-16 00:00:00,Kenneth Walker Fund
+174,Hadassah University Medical Center,1936,2000-01-19 00:00:00,Gift of Milton Scheingarten
+175,Porta Vittoria,1986,1989-05-16 00:00:00,Pritzker Foundation Fund and Architecture & Design Purchase Fund
+176,Hadassah University Medical Center,1936,2000-01-19 00:00:00,Gift of Milton Scheingarten
+177,Porta Vittoria,1986,1989-05-16 00:00:00,Pritzker Foundation Fund and Architecture & Design Purchase Fund
+178,Hadassah University Medical Center,1936,2000-01-19 00:00:00,Gift of Milton Scheingarten
+179,Porta Vittoria,1986,1989-05-16 00:00:00,Pritzker Foundation Fund and Architecture & Design Purchase Fund
+180,Hadassah University Medical Center,1936,2000-01-19 00:00:00,Gift of Milton Scheingarten
+181,Porta Vittoria,1986,1989-05-16 00:00:00,Pritzker Foundation Fund and Architecture & Design Purchase Fund
+182,Hadassah University Medical Center,1936,2000-01-19 00:00:00,Gift of Milton Scheingarten
+183,Porta Vittoria,1986,1989-05-16 00:00:00,Pritzker Foundation Fund and Architecture & Design Purchase Fund
+185,Porta Vittoria,1986,1989-05-16 00:00:00,Pritzker Foundation Fund and Architecture & Design Purchase Fund
+186,Hadassah University Medical Center,1936,2000-01-19 00:00:00,Gift of Milton Scheingarten
+187,Porta Vittoria,1986,1989-05-16 00:00:00,Pritzker Foundation Fund and Architecture & Design Purchase Fund
+189,Residence for Herbert Green,1989,1989-05-16 00:00:00,Gift of the architect
+191,Finney Guest House Project,1949,1989-05-16 00:00:00,Gift of the architect
+193,Yale University,1964,1989-05-16 00:00:00,Gift of the architect
+195,Unidentified project (Perspective),1935,2000-01-19 00:00:00,Gift of Milton Scheingarten
+197,Hadassah University Hospital,1935,2000-01-19 00:00:00,Gift of Milton Scheingarten
+198,Hadassah University Medical Center,1935,2000-01-19 00:00:00,Gift of Milton Scheingarten
+199,Hadassah University Medical Center,1935,2000-01-19 00:00:00,Gift of Milton Scheingarten
+200,Arcadia Peninsula Housing,1979,1992-01-15 00:00:00,Gift of Kenneth Walker
+201,Slow House Project,1989,1992-01-15 00:00:00,Marshall Cogan Purchase Fund and Jeffrey P. Klein Purchase Fund
+202,The Peak Project,1991,1992-01-15 00:00:00,"David Rockefeller, Jr. Fund"
+2,Ferdinandsbrücke Project,1896,1996-04-09 00:00:00,Fractional and promised gift of Jo Carole and Ronald S. Lauder
+3,City of Music,1987,1995-01-17 00:00:00,Gift of the architect in honor of Lily Auchincloss
+4,Villa near Vienna Project,1903,1997-01-15 00:00:00,Gift of Jo Carole and Ronald S. Lauder
+5,The Manhattan Transcripts Project,1980,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+6,Villa,1903,1997-01-15 00:00:00,Gift of Jo Carole and Ronald S. Lauder
+7,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+8,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+9,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+10,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+11,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+12,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+13,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+14,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+15,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+16,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+17,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+18,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+19,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+20,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+21,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+22,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+23,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+24,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+25,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+26,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+27,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+28,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+29,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+30,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+31,The Manhattan Transcripts Project,1977,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+32,Memorial to the Six Million Jewish Martyrs,1968,1997-01-15 00:00:00,Purchase
+33,The Manhattan Transcripts Project,1980,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+34,Royal Hunting Tent,1900,1997-01-15 00:00:00,Gift of Jo Carole and Ronald S. Lauder
+35,The Manhattan Transcripts Project,1978,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+36,House in Krems,1905,1997-01-15 00:00:00,Gift of Jo Carole and Ronald S. Lauder
+38,The Manhattan Transcripts Project,1980,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+39,Imperial Post Office,1906,1997-01-15 00:00:00,Gift of Jo Carole and Ronald S. Lauder
+41,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+42,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+43,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+44,The Manhattan Transcripts Project,1980,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+45,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+46,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+47,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+48,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+49,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+50,The Manhattan Transcripts Project,1979,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+52,The Manhattan Transcripts Project,1980,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+54,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+55,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+56,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+57,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+58,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+59,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+60,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+61,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+62,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+63,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+64,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+65,The Manhattan Transcripts Project,1981,1995-01-17 00:00:00,Purchase and partial gift of the architect in honor of Lily Auchincloss
+302,Kyle Residence,1995,1999-06-30 00:00:00,Gift of the Peter Norton Family Foundation
+303,Kyle Residence,1995,1999-06-30 00:00:00,Gift of the Peter Norton Family Foundation
+304,American Gas Station Project,1975,1999-06-30 00:00:00,Robert K. and Barbara J. Straus Family Foundation
+305,St. Mark's-in-the-Bouwerie Towers,1931,1999-06-30 00:00:00,"Jeffrey P. Klein Purchase Fund, Barbara Pine Purchase Fund, and Frederieke Taylor Purchase Fund"
+306,Unity Temple,1930,1999-06-30 00:00:00,"Gift of Patricia Phelps de Cisneros, The Lauder Foundation, Leonard and Evelyn Lauder Fund, and Victoria Newhouse Purchase Fund"
+307,Transplantation I,1964,1965-04-06 00:00:00,Philip Johnson Fund
+308,Linear City Project,1964,1965-04-06 00:00:00,Philip Johnson Fund
+309,Floating Compression Column,1959,1965-04-06 00:00:00,Gift of the architect
+318,Woodland Chapel,1920,1984-10-30 00:00:00,Marshall Cogan Purchase Fund
+319,Woodland Chapel,1920,1984-10-30 00:00:00,Marshall Cogan Purchase Fund
+320,Palace of Italian Civilization,1939,1984-10-30 00:00:00,Purchase
+321,Roma Interrota,1977,1984-10-30 00:00:00,Marshall Cogan Purchase Fund
+322,Hypostyle House project (Axonometric),1977,1984-10-30 00:00:00,Marshall Cogan Purchase Fund
+323,Belvedere,1980,1984-10-30 00:00:00,Marshall Cogan Purchase Fund
+324,The Atheneum,1976,1984-10-30 00:00:00,Gift of the architect
+325,The Atheneum,1976,1984-10-30 00:00:00,Gift of the architect
+326,The Atheneum,1976,1984-10-30 00:00:00,Gift of the architect
+327,The Atheneum,1975,1984-10-30 00:00:00,Gift of the architect
+328,The Atheneum,1976,1984-10-30 00:00:00,Gift of the architect
+329,The Atheneum,1979,1984-10-30 00:00:00,Gift of the architect
+330,The Atheneum,1979,1984-10-30 00:00:00,Gift of the architect
+331,The Atheneum,1979,1984-10-30 00:00:00,Gift of the architect
+332,Il Palazzo della Civiltà Italiana,1938,1984-10-30 00:00:00,Purchase
+333,Il Palazzo della Civiltà Italiana,1938,1984-10-30 00:00:00,Purchase
+334,Il Palazzo della Civiltà Italiana,1938,1984-10-30 00:00:00,Purchase
+335,Jewish Museum Project,1992,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+336,Worldbridge Trade and Investment Center project,1992,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+337,Worldbridge Trade and Investment Center,1992,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+338,Church of the Light,1989,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+339,Church of the Light,1989,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+340,Church of the Light,1989,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+341,Church of the Light,1989,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+342,Austrian Cultural Institute,1993,1993-01-14 00:00:00,Gift of the architect
+343,Church of the Light,1989,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+344,Tokyo International Forum,1991,1993-01-14 00:00:00,Gift of the architect
+345,Motorway Service Station Project,1989,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+346,Tokyo International Forum,1991,1993-11-04 00:00:00,Gift of the architect
+347,Tokyo International Forum,1991,1993-11-04 00:00:00,Gift of the architect
+348,Tokyo International Forum,1991,1993-11-04 00:00:00,Gift of the architect
+349,Tokyo International Forum,1991,1993-11-04 00:00:00,Gift of the architect
+350,Tokyo International Forum,1991,1993-11-04 00:00:00,Gift of the architect
+351,Tokyo International Forum,1991,1993-11-04 00:00:00,Gift of the architect
+352,Tokyo International Forum,1991,1993-11-04 00:00:00,Gift of the architect
+353,Motorway Service Station project (Preliminary plan),1991,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+354,Tokyo International Forum,1989,1993-11-04 00:00:00,Gift of the architect
+355,San Francisco Museum of Modern Art,1996,1996-09-25 00:00:00,Gift of the architect to Philip Johnson
+357,Alamillo Bridge and Cartuga Viaduct,1988,1996-09-25 00:00:00,Gift of the architect
+359,Lyons Airport Railroad Station,1992,1996-09-25 00:00:00,Gift of the architect
+360,Hong Kong and Shanghai Bank,1985,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+361,Hong Kong and Shanghai Bank,1985,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+362,Hong Kong and Shanghai Bank,1985,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+363,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+364,Parc de la Villette project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+365,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+366,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+367,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+368,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+369,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+370,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+372,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+373,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+374,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+375,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+376,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+377,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+378,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+379,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+380,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+381,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+382,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+383,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+384,Parc de la Villette Project,1983,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+386,City Tower,1953,1967-04-11 00:00:00,Gift of the architect
+387,Re-ruined Hiroshima,1990,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+388,Friedrichstrasse Skyscraper,1921,1966-05-10 00:00:00,"Mies van der Rohe Archive, gift of Mary Callery"
+389,Civic Center Studies,1957,1967-04-11 00:00:00,Gift of the architect
+390,Exodus,1972,1996-02-25 00:00:00,"Patricia Phelps de Cisneros Purchase Fund, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+391,Civic Center Studies,1957,1967-04-01 00:00:00,Gift of the architect
+392,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+393,Endless Theatre Project,1924,1966-05-10 00:00:00,Gift of the architect
+394,Market Street East Studies,1962,1967-04-11 00:00:00,Gift of the architect
+396,Endless Theatre Project,1924,1966-05-10 00:00:00,Gift of the architect
+397,Alfred Newton Richards Medical Research Building and Biology Building,1957,1967-04-01 00:00:00,Gift of the architect
+399,Endless Theater Project,1924,1966-05-10 00:00:00,Gift of the architect
+400,Alfred Newton Richards Medical Research Building and Biology Building,1957,1967-04-11 00:00:00,Gift of the architect
+401,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+402,Place de la Concorde Project,1925,1966-05-10 00:00:00,Gift of the architect
+403,Alfred Newton Richards Medical Research Building and Biology Building,1957,1967-04-11 00:00:00,Gift of the architect
+404,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+405,Alfred Newton Richards Medical Research Building and Biology Building,1957,1967-04-11 00:00:00,Gift of the architect
+406,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+407,Alfred Newton Richards Medical Research Building and Biology Building,1957,1967-04-11 00:00:00,Gift of the architect
+408,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+409,Alfred Newton Richards Medical Research Building and Biology Building,1957,1967-04-11 00:00:00,Gift of the architect
+410,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+411,Alfred Newton Richards Medical Research Building and Biology Building,1960,1967-04-11 00:00:00,Gift of the architect
+412,Times Square Tower Project,1984,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+413,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+414,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+415,Casa de Retiro Espiritual,1979,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+416,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+417,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+418,Casa de Retiro Espiritual,1979,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+419,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+420,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+421,Project for a Painted Wall,1969,1969-04-24 00:00:00,Purchase
+422,Casa de Retiro Espiritual,1979,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+423,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+424,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+425,Project for a Painted Wall,1969,1969-04-24 00:00:00,Purchase
+426,Chikatsu-Asuka Historical Museum,1991,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+427,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+428,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+429,Project for a Painted Wall,1969,1969-04-24 00:00:00,Purchase
+430,The Tokyo Design Center,1989,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+431,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+432,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+433,Airplane Hangar Project (Roof plan),1963,1969-04-24 00:00:00,Gift of Ivan Chermayeff
+434,Town Plan Project,1994,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+435,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+436,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+437,San Francisco Museum of Modern Art,1994,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+438,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+439,Tribune Review Publishing Company Building,1958,1967-04-11 00:00:00,Gift of the architect
+440,Slow House Project,1991,1994-09-21 00:00:00,Gift of the architects in honor of Lily Auchincloss
+441,Exodus,1972,1996-09-25 00:00:00,"Gift of Patricia Phelps de Cisneros, Takeo Ohbayashi Purchase Fund, and Susan de Menil Purchase Fund"
+442,First Unitarian Church and School,1959,1967-04-11 00:00:00,Gift of the architect
+443,Les Espaces d'Abraxas: Le Palacio,1979,1985-11-18 00:00:00,Marshall Cogan Purchase Fund
+444,University of Toledo Center for the Visual Arts,1990,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+445,Building over Motorway Project,1969,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+446,First Unitarian Church and School,1969,1967-04-11 00:00:00,Gift of the architect
+447,Les Espaces d'Abraxas: Le Palacio,1979,1985-11-18 00:00:00,Marshall Cogan Purchase Fund
+448,Video Clip Folly Project,1993,1994-09-21 00:00:00,Gift of the architects in honor of Lily Auchincloss
+449,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+450,First Unitarian Church and School,1960,1967-04-11 00:00:00,Gift of the architect
+451,Les Espaces d'Abraxas: Le Palacio,1979,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+452,Iris Dome Project,1994,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+453,House for Venice Biennale,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+454,Salk Institute for Biological Studies,1961,1967-04-11 00:00:00,Gift of the architect
+455,New York Tower,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+456,Void Space/Hinge Space Housing,1989,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+457,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+458,Salk Institute for Biological Studies (laboratory,1962,1967-04-11 00:00:00,Gift of the architect
+459,New York Tower,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+460,Museum of Vulcanism,1994,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+461,House for Venice Biennale,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+462,Salk Institute for Biological Studies (laboratory,1962,1967-04-11 00:00:00,Gift of the architect
+463,New York Tower,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+464,The Completion of Washington,1984,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+465,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+466,Salk Institute for Biological Studies (Laboratory,1962,1967-04-11 00:00:00,Gift of the architect
+467,New York Tower,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+468,Nara Convention Hall Project,1992,1994-09-21 00:00:00,Gift of the architects in honor of Lily Auchincloss
+469,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+470,Eleanor Donnelley Erdman Hall,1961,1967-04-11 00:00:00,Gift of the architect
+471,New York Tower project,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+472,Nara Convention Hall Project,1992,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+473,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+474,Eleanor Donnelley Erdman Hall,1961,1967-04-11 00:00:00,Gift of the architect
+475,New York Tower,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+476,Le Fresnoy,1992,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+477,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+478,Eleanor Donnelley Erdman Hall,1962,1967-04-11 00:00:00,Gift of the architect
+479,New York Tower,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+480,Tokyo International Forum,1991,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+481,Tokyo International Forum,1991,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+482,Tokyo International Forum,1991,1994-09-21 00:00:00,Gift of the architect in honor of Lily Auchincloss
+483,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+484,Traffic Studies,1953,1964-04-14 00:00:00,Gift of the architect
+485,Fine Arts Center,1963,1967-04-11 00:00:00,Gift of the architect
+486,New York Tower,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+487,House for Venice Biennale,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+488,Traffic Study,1952,1964-04-14 00:00:00,Gift of the architect
+489,Mikveh Israel Synagogue,1963,1967-04-11 00:00:00,Gift of the architect
+490,Antigone: La Place du Nombre d'Or,1984,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+491,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+492,Sher-e-Bangla Nagar,1964,1964-04-14 00:00:00,Gift of the architect
+493,Mikveh Israel Synagogue,1962,1967-04-11 00:00:00,Gift of the architect
+494,Café Aubette,1927,1982-10-27 00:00:00,"Gift of Lily Auchincloss, Celeste Bartos, and Marshall Cogan"
+495,Antigone: La Place du Nombre d'Or,1984,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+496,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+497,Sher-e-Bangla Nagar,1962,1964-04-14 00:00:00,Gift of the architect
+498,Mikveh Israel Synagogue,1963,1967-04-11 00:00:00,Gift of the architect
+499,Café Aubette,1927,1982-10-27 00:00:00,"Gift of Lily Auchincloss, Celeste Bartos, and Marshall Cogan"
+500,La Place du Nombre d'Or,1984,1985-11-18 00:00:00,Gift of the architect
+501,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+502,Sher-e-Bangla Nagar,1963,1964-04-14 00:00:00,Gift of the architect
+503,Mikveh Israel Synagogue,1965,1967-04-11 00:00:00,Gift of the architect
+504,Staatsgalerie Stuttgart,1978,1982-10-27 00:00:00,Gift of the architect
+505,Les Eschelles du Baroque Apartment Building,1985,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+506,House for Venice Biennale project,1976,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+507,Sher-e-Bangla Nagar,1963,1964-04-14 00:00:00,Gift of the architect
+508,Mikveh Israel Synagogue,1965,1967-04-11 00:00:00,Gift of the architect
+509,Staatsgalerie Stuttgart,1978,1982-10-27 00:00:00,Gift of the architect
+510,Les Eschelles du Baroque Apartment Building,1987,1985-11-18 00:00:00,Gift of Ricardo Bofill Taller de Arquitectura
+511,Beach Road II Office Tower Project,1981,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+512,Sher-e-Bangla Nagar,1963,1964-04-14 00:00:00,Gift of the architect
+513,Mikveh Israel Synagogue,1965,1967-04-11 00:00:00,Gift of the architect
+514,Staatsgalerie Stuttgart,1978,1982-10-27 00:00:00,Gift of the architect
+515,Arkhitekturnye Fantazii,1933,1985-11-18 00:00:00,Arthur A. Cohen Purchase Fund
+516,Formmutation I,1981,1988-11-22 00:00:00,Frederieke Taylor Purchase Fund
+517,Feature Animation Building,1992,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+518,Sher-e-Bangla Nagar,1963,1964-04-14 00:00:00,Gift of the architect
+519,Sher-e-Bangla Nagar,1962,1967-04-11 00:00:00,Gift of the architect
+520,Staatsgalerie Stuttgart,1978,1982-10-27 00:00:00,Gift of the architect
+521,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+522,Eclectic House Facade,1977,1988-11-22 00:00:00,Gift of Kenneth Walker
+523,Seville World Fair,1989,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+524,Sher-e-Bangla Nagar,1963,1964-04-14 00:00:00,Gift of the architect
+525,Sher-e-Bangla Nagar,1964,1967-04-11 00:00:00,Gift of the architect
+526,Staatsgalerie Stuttgart,1978,1982-10-27 00:00:00,Gift of the architect
+527,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+528,ABN-AMRO Bank Project,1996,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+529,Fine Arts Center,1963,1964-04-14 00:00:00,Gift of the architect
+530,Sher-e-Bangla Nagar,1964,1967-04-11 00:00:00,Gift of the architect
+531,Staatsgalerie Stuttgart,1978,1982-10-27 00:00:00,Gift of the architect
+532,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+533,Untitled,1996,1996-09-25 00:00:00,Gift of the architect in honor of Philip Johnson
+534,Fine Arts Center,1963,1964-04-14 00:00:00,Gift of the architect
+535,Sher-e-Bangla Nagar,1964,1967-04-11 00:00:00,Gift of the architect
+536,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+538,Fine Arts Center,1963,1964-04-14 00:00:00,Gift of the architect
+539,Sher-e-Bangla Nagar,1963,1967-04-11 00:00:00,Gift of the architect
+540,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+542,Mikveh Israel Synagogue,1963,1964-04-14 00:00:00,Gift of the architect
+543,Sher-e-Bangla Nagar,1963,1967-04-11 00:00:00,Gift of the architect
+544,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+546,Mikveh Israel Synagogue,1963,1964-04-14 00:00:00,Gift of the architect
+547,Sher-e-Bangla Nagar,1963,1967-04-11 00:00:00,Gift of the architect
+548,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+550,Mikveh Israel Synagogue,1963,1964-04-14 00:00:00,Gift of the architect
+551,Sher-e-Bangla Nagar,1963,1967-04-11 00:00:00,Gift of the architect
+552,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+553,Mikveh Israel Synagogue,1961,1964-04-14 00:00:00,Gift of the architect
+554,Sher-e-Bangla Nagar,1963,1967-04-11 00:00:00,Gift of the architect
+555,The Completion of Washington,1985,1985-11-18 00:00:00,Purchase
+556,Mikveh Israel Synagogue,1962,1964-04-14 00:00:00,Gift of the architect
+557,Sher-e-Bangla Nagar,1965,1967-04-11 00:00:00,Gift of the architect
+558,Urban projects for Montevideo and São Paulo,1929,1985-11-18 00:00:00,Emilio Ambasz Fund
+559,First Unitarian Church and School,1959,1964-04-14 00:00:00,Gift of the architect
+560,Sher-e-Bangla Nagar,1965,1967-04-11 00:00:00,Gift of the architect
+561,Art and Architecture Building,1958,1985-11-18 00:00:00,Gift of the architect
+562,First Unitarian Church and School,1959,1964-04-14 00:00:00,Gift of the architect
+563,Sher-e-Bangla Nagar,1964,1967-04-11 00:00:00,Gift of the architect
+564,Arthur W. Milam Residence,1962,1985-11-18 00:00:00,Gift of the architect
+565,First Unitarian Church and School,1961,1964-04-14 00:00:00,Gift of the architect
+566,Sher-e-Bangla Nagar,1965,1967-04-11 00:00:00,Gift of the architect
+567,Graphic Arts Center Project,1967,1985-11-18 00:00:00,Gift of the architect
+568,First Unitarian Church and School,1961,1964-04-14 00:00:00,Gift of the architect
+569,Sher-e-Bangla Nagar,1965,1967-04-11 00:00:00,Gift of the architect
+570,Dharmala Office Building,1983,1985-11-18 00:00:00,Gift of the architect
+571,First Unitarian Church and School,1961,1964-04-14 00:00:00,Gift of the architect
+572,Sher-e-Bangla Nagar,1965,1967-04-11 00:00:00,Gift of the architect
+573,First Unitarian Church and School,1961,1964-04-14 00:00:00,Gift of the architect
+574,Sher-e-Bangla Nagar,1965,1967-04-11 00:00:00,Gift of the architect
+575,Civic Center Studies,1957,1964-04-14 00:00:00,Gift of the architect

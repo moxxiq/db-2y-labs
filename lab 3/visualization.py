@@ -122,19 +122,19 @@ else:
         'type': 'box',
         'boxType': 'plot',
         'fileId': ids[0],
-        'title': '10 авторів з найбільшою кількістю робіт'
+        'title': '10 авторів з найбільшою кількістю робіт.L3'
     }
     box_2 = {
         'type': 'box',
         'boxType': 'plot',
         'fileId': ids[1],
-        'title': 'Постачальники робіт музею'
+        'title': 'Постачальники робіт музею.L3'
     }
     box_3 = {
         'type': 'box',
         'boxType': 'plot',
         'fileId': ids[2],
-        'title': 'Кількість завершених робіт по роках'
+        'title': 'Кількість завершених робіт по роках.L3'
     }
      
     my_dboard.insert(box_1)
